@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'core/routes/all_routes.dart';
 
 void main() {
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
       child: GetMaterialApp(
         theme: ThemeData(
           scaffoldBackgroundColor: AppColors.bgColor,
+          textTheme: GoogleFonts.interTextTheme(),
           appBarTheme: const AppBarTheme(
             toolbarHeight: 65,
             elevation: 0,

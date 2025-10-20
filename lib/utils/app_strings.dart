@@ -2,8 +2,8 @@ class   AppStrings {
 
   // this is a splash screen part Strings
   static const String on = "Claim Instant Rewards";
-  static const String splashScreen = "Welcome to NIBBIAI";
-  static const String subsPlashScreen = "Discover instant rebates and rewards no account needed.";
+  static const String splashTitle = "Welcome to NIBBIAI";
+  static const String splashSubTitle = "Discover instant rebates and rewards-\nno account needed.";
 
 
   // welcome to the home screen
