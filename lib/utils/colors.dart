@@ -10,6 +10,9 @@ class AppColors {
 
   // splash screen color
 static const Color  subTitleColor =Color(0xff575757);
+static const Color  btnColor = Color(0xFF3F3DFF);
+
+
 
 
 
